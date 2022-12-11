@@ -22,7 +22,6 @@ jobs:
         uses: docker/build-push-action@v3.2.0
         with:
           context: .
-          file: .
           push: true
           tags: |
             deividdua32/aula_youtube:v1
